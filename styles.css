@@ -1,0 +1,112 @@
+#graph-container {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#graph-control {
+    display: none;
+    padding: 10px;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+img {
+    cursor: pointer;
+    margin: 10px 15px 10px 30px;
+    width: 40px;
+    padding: 5px 8px;
+}
+
+#add-node {
+    display: block;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    z-index: 1;
+}
+
+#rename {
+    align-items: center;
+    background-color: white;
+    bottom: 0;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    left: 0;
+    margin: 0 auto;
+    opacity: 0.7;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#rename-input {
+    height: 30px;
+    margin: 20px;
+    width: 30vw;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+#add-node.active, #add-edge.active {
+    border-radius: 10px;
+    background-color: green;
+}
+
+#properties {
+    align-items: center;
+    background-color: rgba(255, 255, 255, .5);
+    bottom: 0;
+    box-sizing: border-box;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    left: 0;
+    overflow: scroll;
+    padding: 100px 20px 0 20px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#properties .add-new-row {
+    position: relative;
+    left: -131px;
+}
+
+#properties table {
+    margin-top: 20px;
+}
+
+#properties table tbody tr button {
+    background-color: crimson;
+    border: none;
+    box-sizing: border-box;
+    height: 30px;
+    line-height: 10px;
+    padding: 10px;
+}
+
+#properties table tbody input {
+    height: 30px;
+    line-height: 10px;
+    padding: 10px;
+}
+
+.add-new-row {
+    background-color: green;
+}
+
+.properties-buttons {
+    margin-top: 20px;
+    position: relative;
+    right: -126px;
+}
