@@ -1,0 +1,82 @@
+<head>
+    <script src="./src/sigma.core.js"></script>
+    <script src="./src/conrad.js"></script>
+    <script src="./src/utils/sigma.utils.js"></script>
+    <script src="./src/utils/sigma.polyfills.js"></script>
+    <script src="./src/sigma.settings.js"></script>
+    <script src="./src/classes/sigma.classes.dispatcher.js"></script>
+    <script src="./src/classes/sigma.classes.configurable.js"></script>
+    <script src="./src/classes/sigma.classes.graph.js"></script>
+    <script src="./src/classes/sigma.classes.camera.js"></script>
+    <script src="./src/classes/sigma.classes.quad.js"></script>
+    <script src="./src/classes/sigma.classes.edgequad.js"></script>
+    <script src="./src/captors/sigma.captors.mouse.js"></script>
+    <script src="./src/captors/sigma.captors.touch.js"></script>
+    <script src="./src/renderers/sigma.renderers.canvas.js"></script>
+    <script src="./src/renderers/sigma.renderers.def.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.labels.def.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.hovers.def.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.nodes.def.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edges.def.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edges.curve.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edges.arrow.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edges.curvedArrow.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edgehovers.def.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edgehovers.curve.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edgehovers.arrow.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.edgehovers.curvedArrow.js"></script>
+    <script src="./src/renderers/canvas/sigma.canvas.extremities.def.js"></script>
+    <script src="./src/middlewares/sigma.middlewares.rescale.js"></script>
+    <script src="./src/middlewares/sigma.middlewares.copy.js"></script>
+    <script src="./src/misc/sigma.misc.animation.js"></script>
+    <script src="./src/misc/sigma.misc.bindEvents.js"></script>
+    <script src="./src/misc/sigma.misc.bindDOMEvents.js"></script>
+    <script src="./src/misc/sigma.misc.drawHovers.js"></script>
+    <script src="./plugins/sigma.renderers.edgeLabels/settings.js"></script>
+    <script src="./plugins/sigma.renderers.edgeLabels/sigma.canvas.edges.labels.def.js"></script>
+    <script src="./plugins/sigma.renderers.edgeLabels/sigma.canvas.edges.labels.curve.js"></script>
+    <script src="./plugins/sigma.renderers.edgeLabels/sigma.canvas.edges.labels.curvedArrow.js"></script>
+    <script src="./plugins/sigma.renderers.parallelEdges/utils.js"></script>
+    <script src="./plugins/sigma.renderers.parallelEdges/sigma.canvas.edges.curve.js"></script>
+    <script src="./plugins/sigma.renderers.parallelEdges/sigma.canvas.edges.curvedArrow.js"></script>
+    <script src="./plugins/sigma.renderers.parallelEdges/sigma.canvas.edgehovers.curve.js"></script>
+    <script src="./plugins/sigma.renderers.parallelEdges/sigma.canvas.edgehovers.curvedArrow.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<div id="graph-container"></div>
+<div id="graph-control">
+    <img id="remove-icon"
+         src="https://img.icons8.com/external-kiranshastry-solid-kiranshastry/64/000000/external-delete-miscellaneous-kiranshastry-solid-kiranshastry.png"
+         alt="remove"/>
+    <img id="edit-properties" src="icons8-list-of-thumbnails-60.png" alt="properties"/>
+    <img id="add-edge" src="https://img.icons8.com/material-outlined/24/000000/line-chart.png" alt="Add Edge"/>
+</div>
+<img id="add-node" src="node.png" alt="Draw Node"/>
+<div id="rename">
+    <label for="rename-input">Rename:</label>
+    <input id="rename-input"/>
+    <div class="buttons">
+        <button id="cancel">Cancel</button>
+        <button id="ok">OK</button>
+    </div>
+
+</div>
+<div id="properties">
+    <button class="add-new-row">Add A New Row</button>
+    <table>
+        <thead>
+        <tr>
+            <th>Key</th>
+            <th>Value</th>
+            <th></th>
+        </tr>
+        <tbody>
+        </tbody>
+        </thead>
+    </table>
+    <div class="properties-buttons">
+        <button id="properties-cancel">Cancel</button>
+        <button id="properties-ok">OK</button>
+    </div>
+</div>
+<script src="index.js"></script>
