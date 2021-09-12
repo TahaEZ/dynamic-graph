@@ -1,0 +1,126 @@
+{
+  "nodes": [
+    {
+      "label": "And a last one",
+      "x": 250,
+      "y": 700,
+      "size": 10,
+      "id": "n2",
+      "color": "#000"
+    },
+    {
+      "label": "taa",
+      "x": 149.7999999999999,
+      "y": 284.5999999999999,
+      "size": 10,
+      "id": "n5",
+      "color": "#000"
+    },
+    {
+      "label": "node No.6",
+      "x": -25.398521782561854,
+      "y": 505.2254546837685,
+      "size": 10,
+      "id": "n6",
+      "color": "#000"
+    },
+    {
+      "label": "node No.7",
+      "x": 416.69917278909054,
+      "y": 487.0796537871708,
+      "size": 10,
+      "id": "n7",
+      "color": "#000"
+    }
+  ],
+  "edges": [
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 8",
+      "count": 0,
+      "id": "e8",
+      "source": "n5",
+      "target": "n2"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 12",
+      "count": 0,
+      "id": "e12",
+      "source": "n2",
+      "target": "n5"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 13",
+      "count": 0,
+      "id": "e13",
+      "source": "n5",
+      "target": "n6"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 14",
+      "count": 0,
+      "id": "e14",
+      "source": "n6",
+      "target": "n2"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 15",
+      "count": 0,
+      "id": "e15",
+      "source": "n7",
+      "target": "n5"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 16",
+      "count": 0,
+      "id": "e16",
+      "source": "n7",
+      "target": "n2"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 17",
+      "count": 0,
+      "id": "e17",
+      "source": "n6",
+      "target": "n7"
+    },
+    {
+      "size": 10,
+      "type": "curve",
+      "color": "#ccc",
+      "hover_color": "#000",
+      "label": "label 18",
+      "count": 0,
+      "id": "e18",
+      "source": "n7",
+      "target": "n6"
+    }
+  ]
+}
